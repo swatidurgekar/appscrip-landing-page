@@ -30,7 +30,7 @@
 .section2 {
   height: 100%;
 }
-.section2 .heading {
+.heading2 {
   padding: 2em;
   display: flex;
   flex-wrap: nowrap;

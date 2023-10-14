@@ -4,10 +4,10 @@ import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./page.module.css";
 import Navbar from "@/components/navbar/Navbar";
-import { Form } from "@/components/form/Form";
+import Form from "@/components/form/Form";
+import Features from "@/components/features/Features";
 
 export default function Home() {
-  const [value, setValue] = useState(0);
   return (
     <>
       <section className={styles.section1}>
@@ -22,11 +22,13 @@ export default function Home() {
           <Form />
         </div>
       </section>
-      <section className="section2">
-        <div className="heading">
+      <section className={styles.section2}>
+        <div className={styles.heading2}>
           <h1>Elevate Your Craft</h1>
         </div>
+        <Features />
       </section>
+      <section className={styles.section3}></section>
     </>
   );
 }

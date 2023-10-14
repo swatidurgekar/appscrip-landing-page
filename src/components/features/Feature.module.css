@@ -1,0 +1,42 @@
+.firstfeature {
+  display: flex;
+  border: 1px solid;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.firstfeature div {
+  height: 300px;
+  margin: 1%;
+  margin-bottom: 20px;
+  background-color: #eee;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 50%;
+  display: flex;
+}
+.secondfeature {
+  display: flex;
+  border-radius: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.secondfeature div {
+  height: 200px;
+  border-radius: 10px;
+  margin: 1%;
+  margin-bottom: 20px;
+  background-color: #eee;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 33.33%;
+}
+.image {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+.img {
+  max-width: 100%;
+}
